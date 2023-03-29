@@ -6,7 +6,7 @@ pipeline {
 stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'roza', url: 'https://github.com/Jakshylyk8890/networking'
+                git branch: 'main', credentialsId: 'roza', url: 'https://github.com/ra1mova/networking'
             }
         }
         stage('Terraform Init') {
