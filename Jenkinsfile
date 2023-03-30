@@ -6,7 +6,7 @@ pipeline {
 stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'roza', url: 'https://github.com/ra1mova/networking'
+                git branch: 'main', credentialsId: 'roza', url: 'https://github.com/ra1mova/terraform-aws-networking'
             }
         }
         stage('Terraform Init') {
